@@ -1,0 +1,36 @@
+/* How We Work section*/
+
+.how_we_work {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hww_box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.hww_lists {
+    border: 1px solid var(--second-color);
+    text-align: center;
+    width: 27.9%;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.hww_title {
+    color: var(--main-color);
+}
+
+/* Agents */
+.agents {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

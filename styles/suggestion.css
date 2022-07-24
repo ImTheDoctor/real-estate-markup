@@ -1,0 +1,51 @@
+/* Our suggestions */
+.suggestions {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sgt_box {
+    width: 100%;
+    height: auto;
+    padding: 20px 10px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sgt_lists {
+    width: 22.9%;
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+}
+
+.img_wrapper {
+    overflow: hidden;
+}
+
+.sgt_lists img {
+    width: 100%;
+    transition: .4s;
+
+
+}
+
+.sgt_lists:hover img {
+    transform: scale(1.2) rotate(-4deg);
+}
+
+.info_box {
+    padding: 5px 15px;
+    border: 1px solid var(--second-color);
+    border-top: none;
+    border-radius: 0 0 15px 15px;
+}
+
+.info_box i {
+    color: var(--second-color);
+    margin-right: 15px;
+}

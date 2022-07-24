@@ -1,0 +1,39 @@
+/* Header & menu section */
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: #f0f8ff;
+    box-shadow: 2px 5px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navigation {
+    padding: 20px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo_wrapper {
+    width: 100px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.menu_link {
+    color: var(--black);
+}
+
+.menu_list {
+    font-size: 1.8rem;
+    color: var(--second-color);
+    text-transform: uppercase;
+    font-weight: 700;
+}

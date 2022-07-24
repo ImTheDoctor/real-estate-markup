@@ -1,0 +1,70 @@
+/* Contact */
+.contacts_section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.form_wrapper {
+    width: 50%;
+    padding: 0 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text],
+input[type=tel],
+input[type=email],
+textarea {
+
+    padding: 12px 20px;
+    margin: 10px 0;
+
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus,
+input[type=tel]:focus,
+input[type=email]:focus,
+textarea {
+    outline: #000000;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: var(--second-color);
+    color: var(--black);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+input[type=submit]:hover {
+    background-color: var(--main-color);
+    color: #ffffff;
+}
+
+.google_map {
+    width: 400px;
+    height: 470px;
+    z-index: -1;
+    background-color: #000000;
+}

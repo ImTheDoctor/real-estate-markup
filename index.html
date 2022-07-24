@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/images/real_estate_logo-removebg-preview.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Real Estate</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <div class="logo_wrapper">
+                <a href="#"><img src="./assets/images/real_estate_logo-removebg-preview.webp" class="logo"
+                        alt="logo" /></a>
+            </div>
+            <ul class="menu">
+                <a href="#hero" class="menu_link">
+                    <li class="menu_list">home</li>
+                </a>
+                <a href="#how_we_work" class="menu_link">
+                    <li class="menu_list">how we work</li>
+                </a>
+                <a href="#suggestions" class="menu_link">
+                    <li class="menu_list">Օur suggestions</li>
+                </a>
+                <a href="#agents" class="menu_link">
+                    <li class="menu_list">agents</li>
+                </a>
+                <a href="#contacts" class="menu_link">
+                    <li class="menu_list">contacts</li>
+                </a>
+            </ul>
+            <button class="hamburger">
+                <div class="bar"></div>
+            </button>
+        </nav>
+        <nav class="mobile-nav">
+            <ul class="mobile-menu">
+                <a href="#hero" class="mobile-menu_link">
+                    <li class="mobile-menu_list">home</li>
+                </a>
+                <a href="#how_we_work" class="mobile-menu_link">
+                    <li class="mobile-menu_list">how we work</li>
+                </a>
+                <a href="#suggestions" class="mobile-menu_link">
+                    <li class="mobile-menu_list">our suggestions</li>
+                </a>
+                <a href="#agents" class="mobile-menu_link">
+                    <li class="mobile-menu_list">agents</li>
+                </a>
+                <a href="#contacts" class="mobile-menu_link">
+                    <li class="mobile-menu_list">contacts</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main class="main" id="hero">
+        <section class="video_wrapper">
+            <div class="text_anim">
+                <h1 id="text"></h1>
+            </div>
+
+            <video width="100%" height="auto" autoplay muted loop>
+                <source src="./assets/videos/prod.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </section>
+        <section class="how_we_work" id="how_we_work">
+            <div class="container">
+                <h1 class="title">How we work</h1>
+                <ul class="hww_box">
+                    <li class="hww_lists">
+                        <h3 class="hww_title">Briefing</h3>
+                        <p class="hww_text">Meeting on-line</p>
+                        <p class="hww_text">A physical meeting or video call is scheduled to discuss you problems with
+                            our team od experts</p>
+                    </li>
+                    <li class="hww_lists">
+                        <h3 class="hww_title">Planning</h3>
+                        <p class="hww_text">We select options and make sketches</p>
+                        <p class="hww_text">One sketch made using pencil and one with color</p>
+                    </li>
+                    <li class="hww_lists">
+                        <h3 class="hww_title">3D Rendering</h3>
+                        <p class="hww_text">We transform sketch into 3D model</p>
+                        <p class="hww_text">We use 3Ds max</p>
+                    </li>
+                    <li class="hww_lists">
+                        <h3 class="hww_title">Rendering</h3>
+                        <p class="hww_text">We finish your project</p>
+                        <p class="hww_text">We also use 3Ds max</p>
+                    </li>
+                    <li class="hww_lists">
+                        <h3 class="hww_title">Implementation of the project</h3>
+                        <p class="hww_text">We control the implementation of your project</p>
+                        <p class="hww_text">To make it seem as good as a render</p>
+                    </li>
+                    <li class="hww_lists">
+                        <h3 class="hww_title">Construction</h3>
+                        <p class="hww_text">We monitor the entire construction process</p>
+                        <p class="hww_text">We complete construction within 4-6 months, depending on the complexity of
+                            the project</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="suggestions" id="suggestions">
+            <div class="container">
+                <h1 class="title">Our Suggestions</h1>
+                <ul class="sgt_box">
+                    <li class="sgt_lists">
+                        <div class="img_wrapper">
+                            <img src="./assets/images/villa_bg.jpg" alt="villa">
+                        </div>
+                        <div class="info_box">
+                            <p><i class="fa-solid fa-house"></i>villa house with pool</p>
+                            <p><i class="fa-solid fa-location-dot"></i>vahakni residential community</p>
+                            <p><i class="fa-solid fa-sack-dollar"></i>300.000</p>
+                            <p><i class="fa-solid fa-chart-area"></i>190 m<sup>2</sup></p>
+                        </div>
+                    </li>
+                    <li class="sgt_lists">
+                        <div class="img_wrapper">
+                            <img src="./assets/images/villa_bg.jpg" alt="villa">
+                        </div>
+                        <div class="info_box">
+                            <p><i class="fa-solid fa-house"></i>villa house with pool</p>
+                            <p><i class="fa-solid fa-location-dot"></i>vahakni residential community</p>
+                            <p><i class="fa-solid fa-sack-dollar"></i>300.000</p>
+                            <p><i class="fa-solid fa-chart-area"></i>190 m<sup>2</sup></p>
+                        </div>
+                    </li>
+                    <li class="sgt_lists">
+                        <div class="img_wrapper">
+                            <img src="./assets/images/villa_bg.jpg" alt="villa">
+                        </div>
+                        <div class="info_box">
+                            <p><i class="fa-solid fa-house"></i>villa house with pool</p>
+                            <p><i class="fa-solid fa-location-dot"></i>vahakni residential community</p>
+                            <p><i class="fa-solid fa-sack-dollar"></i>300.000</p>
+                            <p><i class="fa-solid fa-chart-area"></i>190 m<sup>2</sup></p>
+                        </div>
+                    </li>
+                    <li class="sgt_lists">
+                        <div class="img_wrapper">
+                            <img src="./assets/images/villa_bg.jpg" alt="villa">
+                        </div>
+                        <div class="info_box">
+                            <p><i class="fa-solid fa-house"></i>villa house with pool</p>
+                            <p><i class="fa-solid fa-location-dot"></i>vahakni residential community</p>
+                            <p><i class="fa-solid fa-sack-dollar"></i>300.000</p>
+                            <p><i class="fa-solid fa-chart-area"></i>190 m<sup>2</sup></p>
+                        </div>
+                    </li>
+                    <li class="sgt_lists">
+                        <div class="img_wrapper">
+                            <img src="./assets/images/villa_bg.jpg" alt="villa">
+                        </div>
+                        <div class="info_box">
+                            <p><i class="fa-solid fa-house"></i>villa house with pool</p>
+                            <p><i class="fa-solid fa-location-dot"></i>vahakni residential community</p>
+                            <p><i class="fa-solid fa-sack-dollar"></i>300.000</p>
+                            <p><i class="fa-solid fa-chart-area"></i>190 m<sup>2</sup></p>
+                        </div>
+                    </li>
+                    <li class="sgt_lists">
+                        <div class="img_wrapper">
+                            <img src="./assets/images/villa_bg.jpg" alt="villa">
+                        </div>
+                        <div class="info_box">
+                            <p><i class="fa-solid fa-house"></i>villa house with pool</p>
+                            <p><i class="fa-solid fa-location-dot"></i>vahakni residential community</p>
+                            <p><i class="fa-solid fa-sack-dollar"></i>300.000</p>
+                            <p><i class="fa-solid fa-chart-area"></i>190 m<sup>2</sup></p>
+                        </div>
+                    </li>
+                    <li class="sgt_lists">
+                        <div class="img_wrapper">
+                            <img src="./assets/images/villa_bg.jpg" alt="villa">
+                        </div>
+                        <div class="info_box">
+                            <p><i class="fa-solid fa-house"></i>villa house with pool</p>
+                            <p><i class="fa-solid fa-location-dot"></i>vahakni residential community</p>
+                            <p><i class="fa-solid fa-sack-dollar"></i>300.000</p>
+                            <p><i class="fa-solid fa-chart-area"></i>190 m<sup>2</sup></p>
+                        </div>
+                    </li>
+                    <li class="sgt_lists">
+                        <div class="img_wrapper">
+                            <img src="./assets/images/villa_bg.jpg" alt="villa">
+                        </div>
+                        <div class="info_box">
+                            <p><i class="fa-solid fa-house"></i>villa house with pool</p>
+                            <p><i class="fa-solid fa-location-dot"></i>vahakni residential community</p>
+                            <p><i class="fa-solid fa-sack-dollar"></i>300.000</p>
+                            <p><i class="fa-solid fa-chart-area"></i>190 m<sup>2</sup></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="agents" id="agents">
+            <div class="container">
+                <h1 class="title">Our Agents</h1>
+                <ul class="sgt_box agent_box">
+                    <li class="sgt_lists agent_lists">
+                        <div class="img_wrapper">
+                            <img src="./assets/images/photo-1595514191830-3e96a518989b.webp" alt="agent">
+                        </div>
+                        <div class="info_box">
+                            <p><i class="fa-solid fa-signature"></i>John Doe</p>
+                            <a href="tel:+37455000000"><i class="fa-solid fa-phone"></i>55 00 00 00</a>
+                        </div>
+                    </li>
+                    <li class="sgt_lists agent_lists">
+                        <div class="img_wrapper">
+                            <img src="./assets/images/photo-1596075780750-81249df16d19.webp" alt="agent">
+                        </div>
+                        <div class="info_box">
+                            <p><i class="fa-solid fa-signature"></i>John Doe</p>
+                            <a href="tel:+37455000000"><i class="fa-solid fa-phone"></i>55 00 00 00</a>
+                            
+                        </div>
+                    </li>
+                    <li class="sgt_lists agent_lists">
+                        <div class="img_wrapper">
+                            <img src="./assets/images/ludovic-migneault-EZ4TYgXPNWk-unsplash.jpg" alt="agent">
+                        </div>
+                        <div class="info_box">
+                            <p><i class="fa-solid fa-signature"></i>John Doe</p>
+                            <a href="tel:+37455000000"><i class="fa-solid fa-phone"></i>55 00 00 00</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="contacts_section" id="contacts">
+            <h2 class="title">Do you have any question?</h2>
+            <div class="container contacts">
+                <div class="form_wrapper">
+                    <form action="https://formsubmit.co/vlad.omurov@gmail.com" method="POST" class="form">
+                        <input type="hidden" name="_next" value="https://www.facebook.com/">
+                        <input type="hidden" name="_subject" value="You have a new message">
+                        <input type="hidden" name="_captcha" value="true">
+                        <input type="hidden" name="_autoresponse"
+                            value="Thanks for your message, our agents will contact you soon">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="text" name="name" placeholder="Full Name" required>
+                        <input type="email" name="email" placeholder="Email Address" required>
+                        <input type="tel" name="tel" id="" placeholder="Your Telephone" required>
+                        <textarea placeholder="Your Message" name="message" rows="10" required></textarea>
+                        <input type="submit" value="Send Message">
+                    </form>
+                </div>
+                <div class="google_map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d97536.19878565891!2d44.525158399999995!3d40.186675199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1658406335266!5m2!1sru!2s"
+                        width="400" height="470" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer_box-wrapper container">
+            <div class="footer-logo_wrapper">
+                <a href="#">
+                    <img class="logo" src="./assets/images/real_estate_logo-removebg-preview.webp" alt="logo">
+                </a>
+            </div>
+            <div class="box">
+                <address>
+                    <h4>central office</h4>
+                    <p>5 Paruyr Sevaki St</p>
+                    <p>Mon-Sun: 10:00am - 8:00pm</p>
+                    <a href="tel:+37455000000">+374 55 00 00 00</a>
+                </address>
+            </div>
+            <div class="box social">
+                <h4>Social</h4>
+                <a href="http://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">Youtube</a>
+            </div>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+
+</html>

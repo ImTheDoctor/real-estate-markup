@@ -1,0 +1,59 @@
+/* Hero section */
+.text_anim {
+    width: 450px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    overflow: hidden;
+}
+
+.text_anim h1 {
+    color: #ffffff;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+    transform: translateX(-450px);
+    transition: .5s;
+    animation-name: textAnim;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-fill-mode: forwards;
+}
+
+@keyframes textAnim {
+    from {
+        transform: translateX(-450px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.text_anim span {
+    font-size: 3.8rem;
+    color: var(--main-color);
+}
+
+
+.video_wrapper {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    z-index: -1;
+}
+
+.video_wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #000000;
+    opacity: 0.4;
+}
